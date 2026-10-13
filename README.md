@@ -97,7 +97,6 @@ Query specific interactions and generate heatmaps/dot plots using `ktplotspy`.
 | `results/LR_results.csv` | Directionally annotated LR interactions |
 | `results/RTF_{Group}.csv` / `TTF_{Group}.csv` | Significant RTF / TFT edges |
 | `results/sig_pathway_{Group}.csv` | Receptor → regulon modules (`r`, `p_corr_adj`, `regulon_score`) |
-| `results/sig_pathway_group.csv` | Subtype-specific modules |
 
 ---
 
