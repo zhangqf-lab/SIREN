@@ -9,16 +9,13 @@ This repository provides the analysis code for the **medulloblastoma (MB)** exam
 ```text
 SIREN/
 ├── README.md
-├── environment.yml
 ├── database/                      # Reference databases (CSV, included)
 │   ├── RTF_human.csv              # Curated receptor–TF relationships
-│   └── cpdb_interaction_input.csv # CellPhoneDB interaction reference (ligand/receptor annotation)
 ├── notebooks/
 │   ├── T00_Data_pre.ipynb         # Data preprocessing: build CellPhoneDB inputs
 │   ├── T01_Method2.ipynb          # CellPhoneDB statistical analysis
 │   ├── T02_Analysis.ipynb         # CCI exploration and plotting
 │   └── T02_exReulon.ipynb         # SIREN signal-to-regulon inference (core)
-└── figures/                       # Output figures
 ```
 
 > ⚠️ **Data Availability**: Single-cell raw/processed data are **NOT** included in this repository due to size limits. Raw FASTQ files are deposited in the Genome Sequence Archive (GSA) under **PRJCA068087**. Processed MuData/AnnData files are available from the authors upon reasonable request.
