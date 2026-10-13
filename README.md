@@ -15,7 +15,7 @@ SIREN/
 │   ├── T00_Data_pre.ipynb         # Data preprocessing: build CellPhoneDB inputs
 │   ├── T01_Method2.ipynb          # CellPhoneDB statistical analysis
 │   ├── T02_Analysis.ipynb         # CCI exploration and plotting
-│   └── T03_SIREN.ipynb         # SIREN signal-to-regulon inference (core)
+│   └── T03_SIREN.ipynb            # SIREN signal-to-regulon inference (core)
 ```
 
 > ⚠️ **Data Availability**: Single-cell raw/processed data are **NOT** included in this repository due to size limits. Raw FASTQ files are deposited in the Genome Sequence Archive (GSA) under **PRJCA068087**. Processed MuData/AnnData files are available from the authors upon reasonable request.
