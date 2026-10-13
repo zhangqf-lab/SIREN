@@ -15,7 +15,7 @@ SIREN/
 │   ├── T00_Data_pre.ipynb         # Data preprocessing: build CellPhoneDB inputs
 │   ├── T01_Method2.ipynb          # CellPhoneDB statistical analysis
 │   ├── T02_Analysis.ipynb         # CCI exploration and plotting
-│   └── T02_exReulon.ipynb         # SIREN signal-to-regulon inference (core)
+│   └── T03_SIREN.ipynb         # SIREN signal-to-regulon inference (core)
 ```
 
 > ⚠️ **Data Availability**: Single-cell raw/processed data are **NOT** included in this repository due to size limits. Raw FASTQ files are deposited in the Genome Sequence Archive (GSA) under **PRJCA068087**. Processed MuData/AnnData files are available from the authors upon reasonable request.
@@ -51,7 +51,7 @@ Run 1000 permutations to identify significant Ligand-Receptor interactions betwe
 **Step 2 — CCI exploration & visualization** (`T02_Analysis.ipynb`)
 Query specific interactions and generate heatmaps/dot plots using `ktplotspy`.
 
-**Step 3 — SIREN inference** (`T02_exReulon.ipynb`, core)
+**Step 3 — SIREN inference** (`T03_SIREN.ipynb`, core)
 1. Assign ligand/receptor directionality using `database/cpdb_interaction_input.csv`.
 2. Map receptors to TFs via `database/RTF_human.csv` (RTF edges).
 3. Map TFs to targets via FigR associations (score > 1) (TFT edges).
